@@ -31,14 +31,19 @@ calendar page makes, so it needs no API keys.
 ## Install
 
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) browser extension.
-2. Open `meld-calendar-overlay.user.js` in this repo and copy its contents.
-3. In Tampermonkey, choose **Create a new script**, replace the template with
-   what you copied, and save. Alternatively, download the file and drag it onto
-   the Tampermonkey dashboard.
-4. Open the Property Meld calendar. The button appears at bottom right.
+2. Open this link and click **Install**:
+   https://raw.githubusercontent.com/CaseCRSaunders/propertymeld-calendar-overlay/main/meld-calendar-overlay.user.js
+3. Open the Property Meld calendar. The button appears at bottom right.
 
-To update, repeat steps 2 and 3. This repo is private, so Tampermonkey cannot
-update the script on its own.
+Tampermonkey checks this repo for new versions on its own (by default about once
+a day). To check right away, use the Tampermonkey dashboard's **Check for
+userscript updates**.
+
+## Releasing a change
+
+Tampermonkey only updates when `@version` goes up. Bump it in
+`meld-calendar-overlay.user.js` in the same commit as the change, then push to
+`main`.
 
 ## Limits
 

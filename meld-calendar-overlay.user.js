@@ -1,9 +1,12 @@
 // ==UserScript==
 // @name         Property Meld Calendar - show started/completed jobs
 // @namespace    https://stewartpm.ca/
-// @version      0.2.0
+// @version      0.2.1
 // @description  Property Meld's calendar drops a job once it is started/completed early. This redraws those appointments as clickable blocks that open the meld.
 // @match        https://app.propertymeld.com/*
+// @homepageURL  https://github.com/CaseCRSaunders/propertymeld-calendar-overlay
+// @updateURL    https://raw.githubusercontent.com/CaseCRSaunders/propertymeld-calendar-overlay/main/meld-calendar-overlay.user.js
+// @downloadURL  https://raw.githubusercontent.com/CaseCRSaunders/propertymeld-calendar-overlay/main/meld-calendar-overlay.user.js
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==
